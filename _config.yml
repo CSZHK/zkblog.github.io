@@ -1,13 +1,13 @@
 # Site settings
-title: zhukang
-subtitle: [ 谈天说地]
-keywords: zhukang
-description: 知行合一. 微信公众号：zhukang6139.
+title: 凌赟
+subtitle: [ 正心，诚意，修身。]
+keywords: 凌赟
+description: 正心，诚意，修身。 微信公众号：zhukang6139.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.zhukang.tech/" # 你的域名
-page_no_title: "zhukang's blog" # 文章无标题时默认显示内容
+page_no_title: "凌赟's blog" # 文章无标题时默认显示内容
 beian: # "备案号"
-author: zhukang
+author: 凌赟
 email: cszhk0310@163.com
 
 # Build settings

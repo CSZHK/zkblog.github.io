@@ -1,8 +1,8 @@
 # Site settings
 title: 凌赟
-subtitle: [ 正心，诚意，修身。]
+subtitle: [ 正心，诚意，进德，修身，养气，为学，笃行，慎独。]
 keywords: 凌赟
-description: 正心，诚意，修身。 微信公众号：zhukang6139.
+description: 正心，诚意，进德，修身，养气，为学，笃行，慎独。 微信公众号：zhukang6139.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.zhukang.tech/" # 你的域名
 page_no_title: "凌赟's blog" # 文章无标题时默认显示内容

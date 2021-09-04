@@ -25,6 +25,44 @@ body {
     padding-right: 50px;
     padding-top: 20px;
 }
+.reward-container button {
+    background: #ff2a2a;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: normal;
+    line-height: 2;
+    margin: 0;
+    outline: 0;
+    padding: 0 15px;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    vertical-align: text-top;
+}
+
+.reward-container {
+    margin: 20px auto;
+    padding: 10px 0;
+    text-align: center;
+    width: 90%;
+}
+
+#qr {
+    padding-top: 20px;
+}
+#qr img {
+    display: inline-block;
+    margin: 0.8em 2em 0 2em;
+    max-width: 100%;
+    width: 180px;
+}
+
+#qr p {
+    text-align: center;
+}
 
 #fb_comments_container {
     margin-top: 35px;

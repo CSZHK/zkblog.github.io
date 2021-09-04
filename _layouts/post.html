@@ -49,12 +49,24 @@ layout: base
         
     </div>
 
-    <div id="donate" >
-        <a href="/donate/" style="text-decoration: none" title="点击直达打赏页面～" >
-            <button>客官~对小店满意的话，<mark>赏个铜板</mark>再走啊🐼</button>
-        </a>
+    <div class="reward-container">
+        <div id="donate" style="text-decoration: none">
+            <button>说的口渴了，可以请我喝瓶水吗？🐼</button>
+        </div>
+        <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+            打赏
+          </button>
+        <div id="qr" style="display: none;">
+            <div style="display: inline-block;">
+              <img src="/assets/imgs/wechat_pay.png"  width="20%" alt="凌赟， 微信支付">
+              <p>微信支付</p>
+            </div>
+            <div style="display: inline-block;">
+              <img src="/assets/imgs/ali_pay.png"  width="20%" alt="凌赟,  支付宝">
+              <p>支付宝</p>
+            </div>   
+        </div>
     </div>
-
 
     <div class="post-nav">
         {% if page.previous %}
